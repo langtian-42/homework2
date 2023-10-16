@@ -6,12 +6,9 @@
     tools:context=".Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/content1"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_weixin"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="这是聊天界面"
-        android:textSize="80sp" />
+        android:layout_height="match_parent"/>
 
 </FrameLayout>
